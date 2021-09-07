@@ -6,7 +6,9 @@ import Footer from './footer';
 
 const Home = () => {
     const scrollElem = useRef(null);
-    const executeScroll = () => scrollElem.current.scrollIntoView()    
+    const executeScroll = () => scrollElem.current.scrollIntoView({
+        behavior: 'smooth'
+    })    
 
     useEffect(()=>{
         window.scrollTo(0, 0)

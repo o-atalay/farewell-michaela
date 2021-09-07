@@ -4,6 +4,10 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+        @media screen and (min-width: 469px) {
+            max-width: 475px;
+            margin: 0 auto;
+        }
     }
     .detail-container {
 
@@ -11,8 +15,6 @@
             .profile-title {
                 background: white;
                 padding: 30px 0 0 15px;
-                //border-radius: 15px;
-                //border: 1px solid rgba(0,0,0, 0.1);
                 margin-bottom: 20px;
 
                 h1.editorial {
