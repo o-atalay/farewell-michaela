@@ -9,6 +9,14 @@
             margin: 0 auto;
         }
     }
+
+    .video-player {        
+        @media screen and (min-width: 469px) {
+            max-width: 475px;
+            margin: 0 auto;
+        }
+    }
+
     .detail-container {
 
         .profile {
@@ -39,18 +47,6 @@
                 background-repeat: no-repeat;
                 width: calc(100% + 30px);
                 margin-left: -15px;
-            }
-        }
-
-        .video-player {
-            position: relative;
-            padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
-            margin-top: 40px;
-
-            .react-player {
-                position: absolute;
-                top: 0;
-                left: 0;
             }
         }
 
