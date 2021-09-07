@@ -1,0 +1,79 @@
+.person-detail {
+    .profile-picture {
+        height: 385px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .detail-container {
+
+        .profile {
+            .profile-title {
+                background: white;
+                padding: 30px 0 0 15px;
+                //border-radius: 15px;
+                //border: 1px solid rgba(0,0,0, 0.1);
+                margin-bottom: 20px;
+
+                h1.editorial {
+                    margin-bottom: -20px;
+                }
+            }
+
+            .profile-text {
+                margin-top: 40px;
+                padding-left: 40px;
+
+                p {
+                    white-space: pre-line
+                }
+            }
+
+            .profile-image {
+                margin-top: 40px;
+                height: 350px;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: calc(100% + 30px);
+                margin-left: -15px;
+            }
+        }
+
+        .video-player {
+            position: relative;
+            padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+            margin-top: 40px;
+
+            .react-player {
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+        }
+
+        .profile-nav {
+            margin-top: 60px;
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+
+            a {
+                font-weight: bolder;
+                position: relative;
+
+                &:after {
+                    content: '';
+                    position: absolute;
+                    width: 150%;
+                    height: 70%;
+                    border: 1px solid gray;
+                    border-radius: 100%;
+                    left: -25%;
+                    top: 8px;
+                    z-index: -1;
+                }
+            }
+        }
+    }
+}

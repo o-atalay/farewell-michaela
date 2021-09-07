@@ -1,0 +1,36 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+
+    &.green-buttons {
+        a {
+            color: $green;
+        }
+    }
+
+    &.white-buttons {
+        a.team {
+            color: $green;
+        }
+    }
+
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: $menu-margin;
+        align-items: center;
+
+        a.mh {
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        a.team {
+            font-size: 18px;
+            text-decoration: underline;
+        }
+    }
+}
