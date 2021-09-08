@@ -27,7 +27,7 @@ const Home = () => {
             </div>
 
             <div className="bottom-row" ref={scrollElem}>
-                <h3 className="editorial fz-36">It takes as much courage to stand up and speak, as it does to sit down and simply listen.</h3>
+                <h3 className="editorial fz-36 mb-5">It takes as much courage to stand up and speak, as it does to sit down and simply listen.</h3>
 
                 <p className="fz-18">You definitely didn’t tiptoe into KISKA, you entered with a giant leap. We know this because of the massive, lasting impression you made when you landed.</p>
                 <p className="fz-18">From the moment you arrived, your path was directly up the corporate ladder but somehow you still managed to stay grounded, walking alongside your fellow team members. You even found the time to nurture young talents, encouraging them until they could walk confidently on their own.</p>
