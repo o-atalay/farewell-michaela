@@ -28,7 +28,7 @@ const People = () => {
                         
                             <div className="person" key={ index } style={{ backgroundImage: 'url( /images/pp/' + p.pp_path + ')' }}>
                                 <Link className="to-person" to={ `people-detail/${p.name.toLowerCase()}` }>
-                                    <div className={index%2 === 0 ? 'name green' : 'name red' }>{p.name}</div>
+                                    <div className={index%2 === 0 ? 'name green' : 'name green' }>{p.name}</div>
                                 </Link>
                             </div>
                         )
