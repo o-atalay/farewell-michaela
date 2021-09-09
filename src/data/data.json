@@ -176,6 +176,11 @@
         ]
     },
     {
+        "name": "Jeanette",
+        "pp_path": "jeanette_pp.jpg",
+        "image": "jeanette_message.jpg"
+    },
+    {
         "name": "Onur",
         "pp_path": "onur_pp.jpg",
         "text": [
